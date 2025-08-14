@@ -82,7 +82,7 @@
           <mxGeometry y="180" width="450" height="90" as="geometry" />
         </mxCell>
         <mxCell id="YGhvROXw0RdNcZlkZx5N-61" value="&lt;span style=&quot;text-align: left;&quot;&gt;Travail nominal&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1740" y="492.5" width="320" height="580" as="geometry" />
+          <mxGeometry x="1740" y="492.5" width="320" height="640" as="geometry" />
         </mxCell>
         <mxCell id="YGhvROXw0RdNcZlkZx5N-62" value="Attente de la levée du flag de lecture de la BDD lévé." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="YGhvROXw0RdNcZlkZx5N-61" vertex="1">
           <mxGeometry y="30" width="320" height="50" as="geometry" />
@@ -102,17 +102,20 @@
         <mxCell id="vByivsYa5ko6VBTnIm9n-1" value="Prélèvement de l&#39;échantillon au niveau du convoyeur." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YGhvROXw0RdNcZlkZx5N-61">
           <mxGeometry y="280" width="320" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="vByivsYa5ko6VBTnIm9n-2" value="Mise de l&#39;échantillon dans le contenant associés à l&#39;analyse à faire." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YGhvROXw0RdNcZlkZx5N-61">
+        <mxCell id="vByivsYa5ko6VBTnIm9n-2" value="Mise de l&#39;échantillon dans le contenant associés à l&#39;analyse de l&#39;échantillon." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YGhvROXw0RdNcZlkZx5N-61">
           <mxGeometry y="330" width="320" height="50" as="geometry" />
         </mxCell>
         <mxCell id="YGhvROXw0RdNcZlkZx5N-64" value="Mesure de la masse de l&#39;échantillon" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="YGhvROXw0RdNcZlkZx5N-61" vertex="1">
           <mxGeometry y="380" width="320" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="YGhvROXw0RdNcZlkZx5N-65" value="Confirmation de la relance de l&#39;initalisation." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="YGhvROXw0RdNcZlkZx5N-61" vertex="1">
+        <mxCell id="vByivsYa5ko6VBTnIm9n-3" value="Stockage des données : masse" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YGhvROXw0RdNcZlkZx5N-61">
           <mxGeometry y="460" width="320" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YGhvROXw0RdNcZlkZx5N-66" value="Flag d&#39;autorisation de travail du GUI lévé." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="YGhvROXw0RdNcZlkZx5N-61" vertex="1">
+        <mxCell id="YGhvROXw0RdNcZlkZx5N-65" value="Stockage des données : masse, numéro de rack, position" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="YGhvROXw0RdNcZlkZx5N-61" vertex="1">
           <mxGeometry y="520" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YGhvROXw0RdNcZlkZx5N-66" value="Flag d&#39;autorisation de travail du GUI lévé." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="YGhvROXw0RdNcZlkZx5N-61" vertex="1">
+          <mxGeometry y="580" width="320" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YGhvROXw0RdNcZlkZx5N-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="YGhvROXw0RdNcZlkZx5N-70" target="YGhvROXw0RdNcZlkZx5N-61" edge="1">
           <mxGeometry relative="1" as="geometry" />
