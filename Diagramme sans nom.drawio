@@ -108,7 +108,7 @@
         <mxCell id="YGhvROXw0RdNcZlkZx5N-64" value="Mesure de la masse de l&#39;échantillon" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="YGhvROXw0RdNcZlkZx5N-61" vertex="1">
           <mxGeometry y="380" width="320" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vByivsYa5ko6VBTnIm9n-3" value="Stockage des données : masse" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YGhvROXw0RdNcZlkZx5N-61">
+        <mxCell id="vByivsYa5ko6VBTnIm9n-3" value="Stockage de données : masse" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YGhvROXw0RdNcZlkZx5N-61">
           <mxGeometry y="460" width="320" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YGhvROXw0RdNcZlkZx5N-65" value="Stockage des données : masse, numéro de rack, position" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="YGhvROXw0RdNcZlkZx5N-61" vertex="1">
