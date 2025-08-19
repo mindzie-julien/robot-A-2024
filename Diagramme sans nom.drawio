@@ -75,7 +75,7 @@
         <mxCell id="YGhvROXw0RdNcZlkZx5N-57" value="Mise en place des cobots en position de fin de travail respectifs." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="YGhvROXw0RdNcZlkZx5N-56" vertex="1">
           <mxGeometry y="30" width="450" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="YGhvROXw0RdNcZlkZx5N-59" value="Flag d&#39;activation de l&#39;arrêt cycle principale de travail levé." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="YGhvROXw0RdNcZlkZx5N-56" vertex="1">
+        <mxCell id="YGhvROXw0RdNcZlkZx5N-59" value="Flag d&#39;activation du cycle principale de travail baissé." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="YGhvROXw0RdNcZlkZx5N-56" vertex="1">
           <mxGeometry y="110" width="450" height="90" as="geometry" />
         </mxCell>
         <mxCell id="YGhvROXw0RdNcZlkZx5N-61" value="&lt;span style=&quot;text-align: left;&quot;&gt;Travail nominal&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
