@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0" version="28.0.7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.0">
   <diagram name="Page-1" id="pIDFg-wCas1avEJF31Ta">
-    <mxGraphModel dx="1081" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="467" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -70,16 +70,13 @@
           <mxGeometry x="780" y="702.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YGhvROXw0RdNcZlkZx5N-56" value="&lt;span style=&quot;text-align: left;&quot;&gt;Action des cobots&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="900" y="890" width="450" height="270" as="geometry" />
+          <mxGeometry x="900" y="890" width="450" height="200" as="geometry" />
         </mxCell>
         <mxCell id="YGhvROXw0RdNcZlkZx5N-57" value="Mise en place des cobots en position de fin de travail respectifs." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="YGhvROXw0RdNcZlkZx5N-56" vertex="1">
           <mxGeometry y="30" width="450" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="YGhvROXw0RdNcZlkZx5N-58" value="Attente de la levée des flags de travail de la BDD et du GUI." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="YGhvROXw0RdNcZlkZx5N-56" vertex="1">
-          <mxGeometry y="110" width="450" height="70" as="geometry" />
-        </mxCell>
         <mxCell id="YGhvROXw0RdNcZlkZx5N-59" value="Flag d&#39;activation de l&#39;arrêt cycle principale de travail levé." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="YGhvROXw0RdNcZlkZx5N-56" vertex="1">
-          <mxGeometry y="180" width="450" height="90" as="geometry" />
+          <mxGeometry y="110" width="450" height="90" as="geometry" />
         </mxCell>
         <mxCell id="YGhvROXw0RdNcZlkZx5N-61" value="&lt;span style=&quot;text-align: left;&quot;&gt;Travail nominal&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1740" y="492.5" width="320" height="790" as="geometry" />
@@ -99,19 +96,19 @@
         <mxCell id="YGhvROXw0RdNcZlkZx5N-63" value="Préchargement des contenants sur la balance si nécéssaire.&lt;div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Enregistrement de la position cible.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Flag de mouvement levée.&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="YGhvROXw0RdNcZlkZx5N-61" vertex="1">
           <mxGeometry y="260" width="320" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vByivsYa5ko6VBTnIm9n-1" value="Prélèvement de l&#39;échantillon au niveau du convoyeur.&lt;div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Enregistrement de la position cible.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Flag de mouvement levée.&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YGhvROXw0RdNcZlkZx5N-61">
+        <mxCell id="vByivsYa5ko6VBTnIm9n-1" value="Prélèvement de l&#39;échantillon au niveau du convoyeur.&lt;div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Enregistrement de la position cible.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Flag de mouvement levée.&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="YGhvROXw0RdNcZlkZx5N-61" vertex="1">
           <mxGeometry y="340" width="320" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="vByivsYa5ko6VBTnIm9n-2" value="Mise de l&#39;échantillon dans le contenant associés à l&#39;analyse de l&#39;échantillon.&lt;div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Enregistrement de la position cible.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Flag de mouvement levée.&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YGhvROXw0RdNcZlkZx5N-61">
+        <mxCell id="vByivsYa5ko6VBTnIm9n-2" value="Mise de l&#39;échantillon dans le contenant associés à l&#39;analyse de l&#39;échantillon.&lt;div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Enregistrement de la position cible.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Flag de mouvement levée.&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="YGhvROXw0RdNcZlkZx5N-61" vertex="1">
           <mxGeometry y="390" width="320" height="70" as="geometry" />
         </mxCell>
         <mxCell id="YGhvROXw0RdNcZlkZx5N-64" value="Mesure de la masse de l&#39;échantillon si nécéssaire." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="YGhvROXw0RdNcZlkZx5N-61" vertex="1">
           <mxGeometry y="460" width="320" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vByivsYa5ko6VBTnIm9n-3" value="Stockage de données si nécéssaire : masse" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YGhvROXw0RdNcZlkZx5N-61">
+        <mxCell id="vByivsYa5ko6VBTnIm9n-3" value="Stockage de données si nécéssaire : masse" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="YGhvROXw0RdNcZlkZx5N-61" vertex="1">
           <mxGeometry y="540" width="320" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vByivsYa5ko6VBTnIm9n-4" value="Déchargement des contenants sur la balance si nécéssaire.&lt;div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Enregistrement de la position cible.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Flag de mouvement levée.&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YGhvROXw0RdNcZlkZx5N-61">
+        <mxCell id="vByivsYa5ko6VBTnIm9n-4" value="Déchargement des contenants sur la balance si nécéssaire.&lt;div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Enregistrement de la position cible.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Flag de mouvement levée.&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="YGhvROXw0RdNcZlkZx5N-61" vertex="1">
           <mxGeometry y="600" width="320" height="70" as="geometry" />
         </mxCell>
         <mxCell id="YGhvROXw0RdNcZlkZx5N-65" value="Stockage des données : masse, numéro de rack, position" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="YGhvROXw0RdNcZlkZx5N-61" vertex="1">
